@@ -1,0 +1,66 @@
+
+.sect-matiere{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bloc-matiere{
+    width : 250px;
+    height: 150px;
+    background : #130f40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-matiere{
+    color: white;
+}
+
+.card{
+    width: 350px;
+    height: 700px;
+    border : 1px black solid;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.matiere{
+    font-size: 16px;
+    color : grey;
+}
+
+
+.question{
+    font-size: 32px;
+    color : black;
+}
+
+
+.reponse{
+    font-size: 24px;
+    color : green;
+}
+
+.score {
+    width : 300px;
+    height: 200px;
+    border: solid 1px #130f40;
+    
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+}
+
+
+.reponse-bloc {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
